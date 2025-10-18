@@ -172,7 +172,10 @@ table {
 
 
 th, td {
-    /* Стили для ячеек таблицы */
+    border: 1px solid #95a1bb;
+    height: 40px;
+    text-align: left;
+    padding-left: 15px;/* Стили для ячеек таблицы */
 }
 
 footer {
