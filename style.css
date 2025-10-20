@@ -166,17 +166,18 @@ select {
 table {
     border-collapse: collapse;
     --font-family: "Inter", sans-serif;
-    width: 300px;
-    height: 196px;
+    /* width: 300px;
+    height: 196px; */
 }/* Стили для таблицы */
 
-
+thead th {
+    text-align: center;
+}
 th, td {
     border: 1px solid #95a1bb;
     height: 40px;
-    padding-left:  15px;
+    padding: 0 15px;
     font-size: 14px;
-    
     /* Стили для ячеек таблицы */
 }
 
