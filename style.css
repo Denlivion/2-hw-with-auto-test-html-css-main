@@ -89,7 +89,7 @@ select {
 /* Стили для заголовков во второй секции */
 }
 
-.books-list {
+.frameworks-list {
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
@@ -99,10 +99,10 @@ select {
     /* Стили для маркированного списка во второй секции */
 }
 
-.books-list li {
+.frameworks-list li {
     position: relative;}
 
-.books-list li::before {
+.frameworks-list li::before {
     content: '';
     position: absolute;
     left: -18px;
@@ -115,7 +115,7 @@ select {
     background-size: contain;
 }
 
-.film-list {
+.books-list {
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
